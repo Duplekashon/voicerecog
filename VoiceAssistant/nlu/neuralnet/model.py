@@ -12,7 +12,7 @@ class NLUModel(nn.Module):
             config.BASE_MODEL
         ) 
         self.drop_1 = nn.Dropout(0.3)
-        self.drop_2 = nn.Dropout(0.3)
+        self.drop_2 = nn.Dropout(0.2)
         self.drop_3 = nn.Dropout(0.3)
 
         self.out_entity = nn.Linear(768,self.num_entity)
