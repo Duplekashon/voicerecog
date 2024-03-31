@@ -24,7 +24,7 @@ class SpeechRecognition(nn.Module):
     hyper_parameters = {
         "num_classes": 29,
         "n_feats": 81,
-        "dropout": 0.1,
+        "dropout": 0.2,
         "hidden_size": 1024,
         "num_layers": 1
     }
